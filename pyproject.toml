@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "django-versions"
-version = "0.1.0"
+version = "0.2.0"
 description = "Provide an Django view that lists installed package versions"
 authors = ["Birger Schacht <birger@rantanplan.org>"]
 readme = "README.md"
