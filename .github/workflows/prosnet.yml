@@ -1,0 +1,17 @@
+#SPDX-FileCopyrightText: 2023 Birger Schacht
+#SPDX-License-Identifier: MIT
+name: Run prosnet workflows
+
+on: [push, pull_request]
+
+jobs:
+
+  black:
+    uses: acdh-oeaw/prosnet-workflows/.github/workflows/poetry-black.yml@v0.3.0
+    with:
+      src: "."
+
+  ruff:
+    uses: acdh-oeaw/prosnet-workflows/.github/workflows/poetry-ruff.yml@v0.3.0
+    with:
+      src: "."
