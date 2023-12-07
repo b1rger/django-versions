@@ -1,10 +1,10 @@
 [tool.poetry]
-name = "django-versions"
+name = "django-vrsns"
 version = "0.2.0"
 description = "Provide an Django view that lists installed package versions"
 authors = ["Birger Schacht <birger@rantanplan.org>"]
 readme = "README.md"
-packages = [{include = "django_versions"}]
+packages = [{include = "django_vrsns"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"

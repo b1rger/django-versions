@@ -8,11 +8,11 @@ only activated if `DEBUG` is set to `true`.
 
 Add the package to your installed apps:
 ```Python
-INSTALLED_APPS.append('django_versions')
+INSTALLED_APPS.append('django_vrsns')
 ```
 
 Add the shipped ulrpatterns to your urlpatterns:
 ```Python
-from django_versions.urls import urlpatterns as dvurlpatterns
+from django_vrsns.urls import urlpatterns as dvurlpatterns
 urlpatterns = dvurlpatterns + urlpatterns
 ```
